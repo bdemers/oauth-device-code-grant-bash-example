@@ -8,7 +8,7 @@ The device code grant type is used by browserless or input-constrained devices, 
 Prerequisites to running this script:
 
 * [`jq`](https://stedolan.github.io/jq/)
-* (Optional, used to generate QR Code) [qrencode](https://fukuchi.org/works/qrencode/index.html.en) - [homebrew](https://formulae.brew.sh/formula/qrencode)
+* [`qrencode`](https://fukuchi.org/works/qrencode/index.html.en) (Optional, used to generate QR Code) - [homebrew](https://formulae.brew.sh/formula/qrencode)
 
 > Implementation note: This script assumes an OpenID Connect (OIDC) identity provider (IdP). As it makes use of OIDC Discovery (`${issuer}/.well-known/openid-configuration`)
 
