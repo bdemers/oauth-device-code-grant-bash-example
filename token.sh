@@ -85,7 +85,7 @@ do
     --data-urlencode 'grant_type=urn:ietf:params:oauth:grant-type:device_code' \
     --data-urlencode "device_code=${device_code}")
 
-echo $token_response | jq
+echo "$token_response" | jq
 
   access_token=$(echo "${token_response}" | jq --raw-output .'access_token | select (.!=null)')
 
