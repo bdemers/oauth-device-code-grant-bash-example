@@ -1,0 +1,5 @@
+oauthClient:
+  applicationType: device
+directions: |+2
+  Use the okta configuration above and run:
+      ./token.sh
